@@ -1,0 +1,28 @@
+<?php
+/**
+ * @package		Interspire eCommerce
+ * @copyright	Copyright (C) 2015 Interspire Co.,Ltd. All rights reserved. (Interspire.vn)
+ * @credits		See CREDITS.txt for credits and other copyright notices.
+ * @license		GNU General Public License version 3; see LICENSE.txt
+ */
+
+// header
+$_['heading_title']   = 'Administration';
+
+// Text
+$_['text_heading']    = 'Administration';
+$_['text_login']      = 'Please enter your login details.';
+$_['text_forgotten']  = 'Forgotten Password';
+$_['text_back_to']	  = 'Back to';
+
+// Entry
+$_['entry_username']  = 'Username';
+$_['entry_password']  = 'Password';
+$_['entry_language']  = 'Language';
+
+// Button
+$_['button_login']    = 'Login';
+
+// Error
+$_['error_login']     = 'No match for Username and/or Password.';
+$_['error_token']     = 'Invalid token session. Please login again.';

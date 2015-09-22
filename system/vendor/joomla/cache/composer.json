@@ -1,0 +1,33 @@
+{
+    "name": "joomla/cache",
+    "type": "joomla-package",
+    "description": "Joomla Cache Package",
+    "keywords": ["joomla", "framework", "cache"],
+    "homepage": "https://github.com/joomla-framework/cache",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "require-dev": {
+        "joomla/test": "~1.0",
+        "phpunit/phpunit": "4.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "suggest": {
+        "joomla/registry": "Registry can be used as an alternative to using an array for the package options."
+    },
+    "autoload": {
+        "psr-0": {
+            "Psr": "vendor/psr/cache"
+        },
+        "psr-4": {
+            "Joomla\\Cache\\": "src/",
+            "Joomla\\Cache\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
