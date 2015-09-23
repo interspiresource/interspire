@@ -1,0 +1,22 @@
+<?php
+/**
+ * @package		Arastta eCommerce
+ * @copyright	Copyright (C) 2015 Arastta Association. All rights reserved. (arastta.org)
+ * @license		GNU General Public License version 3; see LICENSE.txt
+ */
+
+// Heading
+$_['heading_title']  = 'Passwort ändern';
+
+// Text
+$_['text_account']   = 'Konto';
+$_['text_password']  = 'Passwort';
+$_['text_success']   = 'Passwort wurde aktualisiert';
+
+// Entry
+$_['entry_password'] = 'Passwort';
+$_['entry_confirm']  = 'Passwort wiederholen';
+
+// Error
+$_['error_password'] = 'Passwort muss zwischen 4 und 20 Zeichen lang sein.';
+$_['error_confirm']  = 'Passwort und Wiederholung stimmen nicht überein.';

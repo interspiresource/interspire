@@ -1,0 +1,26 @@
+<?php
+/**
+ * @package		Arastta eCommerce
+ * @copyright	Copyright (C) 2015 Arastta Association. All rights reserved. (arastta.org)
+ * @license		GNU General Public License version 3; see LICENSE.txt
+ */
+
+// Heading
+$_['heading_title']         = 'Müşteri Puan Raporu';
+
+// Text
+$_['text_list']             = 'Müşteri Puan Listesi';
+
+// Column
+$_['column_customer']       = 'Müşteri Adı';
+$_['column_email']          = 'E-Posta';
+$_['column_customer_group'] = 'Müşteri Grubu';
+$_['column_status']         = 'Durumu';
+$_['column_points']         = 'Puanlar';
+$_['column_orders']         = 'Sipariş Sayısı';
+$_['column_total']          = 'Toplam';
+$_['column_action']         = 'Eylem';
+
+// Entry
+$_['entry_date_start']      = 'Başlangıç';
+$_['entry_date_end']        = 'Bitiş';

@@ -4,7 +4,7 @@
 	  <div class="container-fluid">
 		<div class="row">
 			<div class="logo">
-				<img src="<?php echo $thumb; ?>" alt="">
+				<img src="view/image/logo.png" alt="Interspire title="Interspire" />
 			</div>
 		  <div class="login-center">
 			<div class="panel panel-default">

@@ -12,7 +12,7 @@ class ModelLanguage extends Model {
         static $data = array();
 
         if (empty($data)) {
-            $link = 'http://Interspire.io/translation/1.0/installer/translated';
+            $link = 'http://interspire.io/translation/1.0/installer/translated';
 
             $json = $this->utility->getRemoteData($link);
 
@@ -27,6 +27,18 @@ class ModelLanguage extends Model {
     public function downloadLanguage($data) {
         $code = $data['lang_code'];
 
+        if ($code == 'vi-VN') {
+            $this->session->data['lang_name'] = 'Vietnamese';
+            $this->session->data['lang_code'] = 'vn';
+            $this->session->data['lang_image'] = 'vn.png';
+            $this->session->data['lang_directory'] = 'vi-VN';
+			
+			// Workaround to mutual session ids
+            $this->session->data['config_language'] = 'vn';
+            $this->session->data['config_admin_language'] = 'vn';
+
+            return $code;
+        }
         if ($code == 'en-GB') {
             $this->session->data['lang_name'] = 'English';
             $this->session->data['lang_code'] = 'en';

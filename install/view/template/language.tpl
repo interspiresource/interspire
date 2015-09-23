@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="logo">
-        <img src="view/image/logo.png" alt="" width="60px" height="72px">
+        <img src="view/image/logo.png" alt="" width="223px" height="87px">
       </div>
       <div class="install-center">
         <div class="panel panel-default">
@@ -13,7 +13,8 @@
                 <div class="form-group">
                   <div class="col-xs-12">
                     <select name="lang_code" id="lang_code" size="20" class="form-control lang_select">
-                      <option value="en-GB" selected="selected" data-next="Next">English (United Kingdom)</option>
+                      <option value="vi-VN" selected="selected" data-next="Tiếp">Vietnamese</option>
+                      <option value="en-GB" data-next="Next">English (United Kingdom)</option>
                       <?php foreach ($languages as $language) { ?>
                       <option value="<?php echo $language['crowdin_code']; ?>" data-next="<?php echo $language['native_next']; ?>"><?php echo $language['native_name']; ?></option>
                       <?php } ?>

@@ -53,10 +53,10 @@
 <?php if ($logged) { ?>
 <header id="header" class="navbar navbar-static-top">
    <div class="menu-logo">
-	<div class="logo-image">
-		<img height="20" src="view/image/logo.png" alt="Arastta" title="Arastta" />
+	<div>
+		<img height="44" width="199" src="view/image/logo.png" alt="Interspire title="Interspire" />
 	</div>
-	<div class="menu-sitename"><a href="<?php echo $site_url; ?>" target="_blank"><?php echo $sitename; ?></a></div>
+	
   </div>
   <div id="arastta-search-div" class="col-sm-3 col-md-3 pull-left">
     <?php echo $search; ?>
@@ -102,7 +102,7 @@
     <?php if($preturn_update) { ?>
     <li><a href="<?php echo $update; ?>" title="<?php echo $alert_update . ' ' . $text_update; ?>"><?php if(!empty($alert_update)) { ?><span class="label label-danger pull-left"><?php echo $alert_update; ?></span><?php } ?><i class="fa fa-refresh fa-lg"></i></a></li>
     <?php } ?>
-    <li class="dropdown"><a href="http://arastta.org/learn" target="_blank"><i class="fa fa-life-ring fa-lg"></i></a></li>
+    <li class="dropdown"><a href="<?php echo $site_url; ?>" target="_blank" title="<?php echo $sitename; ?>"><i class="fa fa-home fa-lg"></i></a></li>
     <li id="header-profile" class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown">
         <img width="25" height="25" src="<?php echo $image; ?>" alt="<?php echo $firstname; ?> <?php echo $lastname; ?>" title="<?php echo $username; ?>" class="img-circle" />
@@ -128,4 +128,5 @@
     </li>
   </ul>
 </header>
+
 <?php } ?>

@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="logo">
-				<img src="view/image/logo.png" alt="" width="60px" height="72px">
+				<img src="view/image/logo.png" alt="" width="223px" height="87px">
 			</div>
 			<div class="install-center">
 				<div class="panel panel-default">
